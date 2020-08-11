@@ -12,4 +12,4 @@ If you have any inquiries or questions to which you don't find an answer or if y
 
 ## Employment opportunities
 
-Visit our [LinkedIn page](https://www.linkedin.com/company/flyable) to see open positions and do not hesitate to [send us an email](contact@flyable.dev) at any moment if you are interested in working with our team.
+Visit our [LinkedIn page](https://www.linkedin.com/company/flyable) to see open positions and do not hesitate to [send us an email](mailto:contact@flyable.dev) at any moment if you are interested in working with our team.
