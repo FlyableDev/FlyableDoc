@@ -5,7 +5,7 @@
 
 Flyable is not available for download yet. Join the closed Beta by signing up!
 
-<button name="sign_up" onclick="http://www.google.com">Sign Up</button>
+<button name="sign_up" onclick="https://share.hsforms.com/1F6ePZYJ6SxSFvBNecaQIKQ4woxi">Sign Up</button>
 
 <br />
 <br />
