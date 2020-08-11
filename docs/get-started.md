@@ -5,7 +5,16 @@
 
 Flyable is not available for download yet. Join the closed Beta by signing up!
 
-<button name="sign_up" onclick="https://share.hsforms.com/1F6ePZYJ6SxSFvBNecaQIKQ4woxi">Sign Up</button>
+<a href="https://share.hsforms.com/1F6ePZYJ6SxSFvBNecaQIKQ4woxi" style="
+    text-decoration: none;
+    color: white; 
+    background-color: #13B3F2;
+    border: none;
+    border-radius: 25px;
+    font-weight: 800;
+    font-size: 15px;
+    padding: 10px 20px;
+    ">Join the Beta</a>
 
 <br />
 <br />
