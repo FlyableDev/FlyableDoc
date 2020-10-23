@@ -3,11 +3,11 @@
 ## 1. Install
 <br />
 
-Flyable is not available for download yet. Join the closed Beta by signing up!
+Flyable is not available for download yet. Contact us to have access to Flyable before everybody else!
 
 <br />
 
-<a href="https://share.hsforms.com/1F6ePZYJ6SxSFvBNecaQIKQ4woxi" style="
+<a href="https://share.hsforms.com/1Ynk4JB0uRBSitjYcnV0nsA4woxi" style="
     text-decoration: none;
     color: white; 
     background-color: #13B3F2;
@@ -16,7 +16,7 @@ Flyable is not available for download yet. Join the closed Beta by signing up!
     font-weight: 800;
     font-size: 15px;
     padding: 10px 20px;
-    "><font size="4">Join the Beta</font></a>
+    "><font size="4">Contact us</font></a>
 
 <br />
 <br />

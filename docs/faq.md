@@ -8,11 +8,11 @@ Here are the most frequently asked questions on Flyable. The questions are class
 
 ### What is Flyable?
 
-Flyable is a compiler and an IDE packaged with APIs for convenient Python development projects on the back-end and the front-end. Flyable generates executable files that can run on Windows at a high speed as well as WebAssembly instructions that enable your apps to run in a browser.
+Flyable is a compiler and an IDE packaged with APIs for convenient Python development projects on the back-end and the front-end. Flyable makes your Python code up to 70x faster while using 80% less memory. Flyable generates executable files that can run on Windows at a high speed as well as WebAssembly instructions that enable your apps to run in a browser.
 
 ### How can Flyable be useful for me / Why should I use Flyable?
 
-If you're a back-end Python developer looking for an easier time with front-end development, if you're looking to significantly increase performance on an existing Python project, or if you're a front-end developer looking to expand your coding expertise while sticking to web development, Flyable is the platform for you!
+If you're looking to significantly increase performance on an existing Python project with no effort, Flyable is the platform for you! Compared to other solutions that make Python faster, Flyable doesn't require to modify your Python code in order to benefit from performance increases which results in development time economies.
 
 ### How do I get started?
 
@@ -48,10 +48,6 @@ All the code that compiles with Flyable can be interpreted by the Python interpr
 
 Sure, as long as it stays in the bounds of the Python functionalities that Flyable supports right now.
 
-### How does Flyable compare to JS or HTML/CSS?
-
-Flyable enables Python to build website front-ends since it can generate WebAssembly instructions and comes with a GUI library. This means that you will now be able to use Python to build full websites. No more need to use JS, HTML or CSS!
-
 <br />
 <br />
 
@@ -74,30 +70,9 @@ Yes.
 
 The compiler applies strong type inference combined with type specialisation to allow strong optimization to your code before generating desktop executables or WebAssembly instructions.
 
-### What are the current APIs and GUIs that come with Flyable?
-
-Flyable comes with its own GUI library to enable you to build nice looking GUIs on desktop and on the web. APIs that will be included in the Beta version are: 
-
 ### How does the Flyable compiler work?
 
 Flyable is compiling Python code into executable files or WebAssembly instructions. To do this, it uses a type discovery algorithm and then makes optimisations before generating the desired output.
-
-<br />
-<br />
-
-## Cross Platform
-
-### What gives Flyable its cross-platform capabilities?
-
-Flyable takes care of generating the machine code that will run on the operating system that you want to target. 
-
-### How does Flyable work with Web Assembly?
-
-When you ask Flyable to generate code that will run in a browser, Flyable compiles your code and optimises it as usual and then generates WebAssembly instructions.
-
-### What are the advantages of using Web Assembly?
-
-WebAssembly will make your web programs faster and lighter.
 
 <br />
 <br />
@@ -119,11 +94,7 @@ Yes. To test Flyable before everyone else, request an invite to the Early Access
 
 ### How does Flyable help with back-end development?
 
-Flyable helps you develop more performant Python code. Our benchmarks show that Flyable makes Python code 50x faster while using 80% less memory. 
-
-### How does Flyable help with front-end development?
-
-What if web front-end development was as easy as building a GUI with Python? That’s what Flyable is proposing. Flyable comes with a GUI library that enables you to build GUIs that run desktop and in browsers.
+Flyable helps you develop more performant Python code. Our benchmarks show that Flyable makes Python code up to 70x faster while using 80% less memory. 
 
 ### How can I connect with the Flyable team/community?
 
