@@ -1,6 +1,6 @@
 # Welcome to Flyable's docs!
 
-Flyable is the tool that will make your Python code run faster while enabling you to build both the back-end and the front-end of your desktop and web apps.
+Flyable is the tool that will make your Python code run faster while enabling you to build the back-end of your desktop and web apps.
 
 ## How is the documentation structured
 
