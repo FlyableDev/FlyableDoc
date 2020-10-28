@@ -8,7 +8,7 @@ Here are the most frequently asked questions on Flyable. The questions are class
 
 ### What is Flyable?
 
-Flyable is a compiler and an IDE packaged with APIs for convenient Python development projects on the back-end and the front-end. Flyable makes your Python code up to 70x faster while using 80% less memory. Flyable generates executable files that can run on Windows at a high speed as well as WebAssembly instructions that enable your apps to run in a browser.
+Flyable is a compiler and an IDE packaged with APIs for convenient Python development projects on the back-end. Flyable makes your Python code up to 70x faster while using 80% less memory. Flyable generates executable files that can run on Windows, Linux and Mac at a high speed as well as WebAssembly instructions that enable your apps to run in a browser.
 
 ### How can Flyable be useful for me / Why should I use Flyable?
 
@@ -68,7 +68,7 @@ Yes, but we can integrate Flyable into your favorite tools.
 
 ### How does Flyable make Python faster and more lightweight?
 
-The compiler applies strong optimization to your Python code before generating native executable on Linux, Windows or MAC
+The compiler applies strong optimization to your Python code before generating native executable on Linux, Windows or Mac.
 
 ### How does the Flyable compiler work?
 
