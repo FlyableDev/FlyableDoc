@@ -3,7 +3,7 @@
 ## 1. Install
 <br />
 
-Flyable is not available for download yet. Contact us to have access to Flyable before everybody else!
+For now, Flyable is available for businesses only. Contact us to have access to Flyable!
 
 <br />
 
