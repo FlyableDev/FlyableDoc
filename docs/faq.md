@@ -29,7 +29,7 @@ Flyable is compiling Python code into executable files or WebAssembly instructio
 
 ### Does Flyable support all versions of Python?
 
-Flyable currently supports a subset of Python 3. It supports most of Python’s use cases, but currently has restrictions relative to data types. Learn more about these restrictions.
+Flyable currently supports a subset of Python 3. It supports most of Python’s use cases. You only have to make sure that the typing of a data remains constant throughout its lifetime.
 
 ### Can Flyable make use of Python libraries?
 
@@ -59,7 +59,7 @@ The IDE has been designed to make its usage simple to understand and use in orde
 
 ### Do I have to use Flyable's IDE to use the compiler?
 
-Yes.
+Yes, but we can integrate Flyable into your favorite tools.
 
 <br />
 <br />
@@ -68,7 +68,7 @@ Yes.
 
 ### How does Flyable make Python faster and more lightweight?
 
-The compiler applies strong type inference combined with type specialisation to allow strong optimization to your code before generating desktop executables or WebAssembly instructions.
+The compiler applies strong optimization to your Python code before generating native executable on Linux, Windows or MAC
 
 ### How does the Flyable compiler work?
 
