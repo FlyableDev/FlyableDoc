@@ -3,11 +3,11 @@
 ## 1. Install
 <br />
 
-For now, Flyable is available for businesses only. Contact us to have access to Flyable!
+Flyable is not available for download yet. Join the closed Beta by signing up!
 
 <br />
 
-<a href="https://share.hsforms.com/1Ynk4JB0uRBSitjYcnV0nsA4woxi" style="
+<a href="https://share.hsforms.com/1F6ePZYJ6SxSFvBNecaQIKQ4woxi" style="
     text-decoration: none;
     color: white; 
     background-color: #13B3F2;
@@ -16,7 +16,7 @@ For now, Flyable is available for businesses only. Contact us to have access to 
     font-weight: 800;
     font-size: 15px;
     padding: 10px 20px;
-    "><font size="4">Contact us</font></a>
+    "><font size="4">Join the Beta</font></a>
 
 <br />
 <br />
