@@ -1,6 +1,8 @@
 # FAQ
 
-Here are the most frequently asked questions on Flyable. The questions are classified in categories. You can clic on links provided in the answers to be redirected to more detailed documentation on the subject. If you don't find the question you are looking for, don't hesitate to communicate with our team at contact@flyable.dev.
+Here are the most frequently asked questions about Flyable. They are organised into different in categories. 
+You can click on links provided in the answers to be redirected to more detailed documentation on the subject. 
+If you don't find the answers you are looking for, don't hesitate to communicate with our team at contact@flyable.dev.
 
 <br />
 
@@ -8,15 +10,22 @@ Here are the most frequently asked questions on Flyable. The questions are class
 
 ### What is Flyable?
 
-Flyable is a compiler and an IDE packaged with APIs for convenient Python development projects on the back-end. Flyable makes your Python code up to 70x faster while using 80% less memory. Flyable generates executable files that can run on Windows, Linux and Mac at a high speed as well as WebAssembly instructions that enable your apps to run in a browser.
+Flyable is a compiler and an IDE packaged with APIs for convenient Python development projects on the back-end.
+Flyable makes your Python code up to 70x faster while using 80% less memory.
+Flyable generates executable files that can run on Windows, Linux and Mac at a high speed as well as WebAssembly 
+instructions that enable your apps to run in a browser.
 
 ### How can Flyable be useful for me / Why should I use Flyable?
 
-If you're looking to significantly increase performance on an existing Python project with no effort, Flyable is the platform for you! Compared to other solutions that make Python faster, Flyable doesn't require to modify your Python code in order to benefit from performance increases which results in development time economies.
+If you're looking to significantly increase performance on an existing Python project with no effort, 
+Flyable is the platform for you! Compared to other solutions that make Python faster, 
+Flyable doesn't require you to make changes to your Python code in order to benefit from performance increases 
+which results in development time savings.
 
 ### How do I get started?
 
-It's simple! You can begin by downloading the Flyable package for your OS of choice. From the [download page](get-started.md#_1-install), you can follow our suggestions for getting started.
+It's simple! You can begin by downloading the Flyable package for your OS of choice. 
+From the [download page](get-started.md#_1-install), you can follow our suggestions for getting started.
 
 <br />
 <br />
@@ -25,15 +34,18 @@ It's simple! You can begin by downloading the Flyable package for your OS of cho
 
 ### How does Flyable work with Python?
 
-Flyable is compiling Python code into executable files or WebAssembly instructions. To do this, it uses a type discovery algorithm and then makes optimisations before generating the desired output.
+Flyable compiles Python code into executable files or WebAssembly instructions. 
+To do this, it uses a type discovery algorithm and then makes optimisations before generating the desired output.
 
 ### Does Flyable support all versions of Python?
 
-Flyable currently supports a subset of Python 3. It supports most of Python’s use cases. You only have to make sure that the typing of a data remains constant throughout its lifetime.
+Flyable currently supports a subset of Python 3. It supports most of Python’s use cases. 
+You only have to make sure that the typing of a data remains constant throughout its lifetime.
 
 ### Can Flyable make use of Python libraries?
 
-Of course! We are working hard to enable you to use existing Python libraries with Flyable. Click here to see all the libraries that Flyable supports.
+Of course! We are working hard to allow you to use existing Python libraries with Flyable. 
+Click here to see all the libraries that Flyable supports.
 
 <br />
 <br />
@@ -42,7 +54,9 @@ Of course! We are working hard to enable you to use existing Python libraries wi
 
 ### Are there any differences with Python's syntax?
 
-All the code that compiles with Flyable can be interpreted by the Python interpreter. The opposite is not always true for the moment, Flyable has some typing restrictions relative to CPython and is not supporting all Python libraries.
+All the code that compiles with Flyable can be interpreted by the Python interpreter. 
+The opposite is not always true for the moment, Flyable has some typing restrictions relative to CPython and is not 
+supporting all Python libraries yet.
 
 ### Could I compile my pre-existing Python code?
 
@@ -55,7 +69,8 @@ Sure, as long as it stays in the bounds of the Python functionalities that Flyab
 
 ### How is the IDE designed?
 
-The IDE has been designed to make its usage simple to understand and use in order to make the Flyable technology accessible to use.
+The IDE has been designed to be simple to use and to understand in order to make the Flyable technology 
+accessible.
 
 ### Do I have to use Flyable's IDE to use the compiler?
 
@@ -72,7 +87,8 @@ The compiler applies strong optimization to your Python code before generating n
 
 ### How does the Flyable compiler work?
 
-Flyable is compiling Python code into executable files or WebAssembly instructions. To do this, it uses a type discovery algorithm and then makes optimisations before generating the desired output.
+Flyable compiles Python code into executable files or WebAssembly instructions. 
+To do this, it uses a type discovery algorithm and then makes optimisations before generating the desired output.
 
 <br />
 <br />
