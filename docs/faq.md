@@ -10,24 +10,24 @@ If you don't find the answers you are looking for, don't hesitate to communicate
 
 ### What is Flyable?
 
-Flyable is an ahead-of-time compiler for Python code. It takes Python code, analyses, optimizes, and transforms it directly to machine code. Doing so allows Flyable to speed up any Python code without needing to modify it.
+Flyable is an ahead-of-time compiler for Python code. It takes Python code, analyses, optimizes, and transforms it directly to machine code. Doing so allows Flyable to speed up any Python code with little to no modification.
 
 ### How can Flyable be useful for me / Why should I use Flyable?
 
-If you're looking to significantly increase performance on an existing Python project with no effort, 
-Flyable is the platform for you! Compared to other solutions that make Python faster, 
-Flyable doesn't require you to make changes to your Python code in order to benefit from performance increases 
-which results in development time savings.
+If you're looking to significantly increase performance on an existing Python project with little to no effort, 
+Flyable is the solution! Speeding up your Python code will reduce server workload while allowing you to iterate faster during the development of your software. Also, by reducing the latency of your software, the people using it will get a better experience. 
 
 ### How do I get started?
 
-It's simple! You can begin by downloading the Flyable package for your OS of choice. 
-From the [download page](get-started.md#_1-install), you can follow our suggestions for getting started.
+It's simple! Visit the [download page](get-started.md#_1-install), and follow the instructions.
 
 ### Is Flyable free?
 
-Flyable offers two licences. The free one is for anyone who uses Flyable for educational or non-commercial open-source purposes.
-The other licence, the commercial one, is required for any business that wants to compile code with Flyable and push it to production. It also comes with commercial support. For more info you can contact the team directly at contact@flyable.dev.
+Yes it is! Flyable is open source and is licensed under the GNU Affero General Public License v3.0.
+
+### Can I get commercial support?
+
+Of course! For more information you can contact the team directly at contact@flyable.dev.
 
 <br />
 <br />
@@ -37,7 +37,7 @@ The other licence, the commercial one, is required for any business that wants t
 ### How does Flyable work with Python?
 
 Flyable compiles Python code into executable files. 
-To do this, it uses a type discovery algorithm and then makes optimisations before generating the desired output.
+To do this, it lexes and parses the Python code, then uses a type discovery algorithm and finally applies optimisations before generating the desired output.
 
 ### Can I use any Python libraries / frameworks / modules?
 
@@ -45,7 +45,7 @@ Yes. Flyable works closely with the Python interpreter (CPython) to ensure that 
 
 ### Can my Python code call a Flyable module?
 
-Not for now. Right now, Flyable only creates static modules to facilitate calls from Flyable to Flyable and calls from Flyable to Python. We do expect to make it work for the 0.9 release.
+Not for now. Right now, Flyable only creates static modules to facilitate calls from Flyable to Flyable and calls from Flyable to Python. We do expect to make it work in the future.
 
 <br />
 <br />
@@ -54,7 +54,7 @@ Not for now. Right now, Flyable only creates static modules to facilitate calls 
 
 ### Do I need to change any of my code?
 
-Ideally no, but realistically Flyable is still a young product and will sometimes need you to change how your code is written. Some syntactic features are still missing right now, but this is a temporary situation, we are working on it.
+Ideally no, but realistically Flyable is still young and will sometimes require a few changes. Some syntaxic features are still missing right now, but this is a temporary situation, we are working on it.
 
 ### Could I compile my pre-existing Python code?
 
@@ -63,38 +63,24 @@ Sure, as long as it stays in the bounds of the Python functionalities that Flyab
 <br />
 <br />
 
-## IDE
-
-### How is the IDE designed?
-
-The IDE has been designed to be simple to use and to understand in order to make the Flyable technology 
-accessible.
-
-### Do I have to use Flyable's IDE to use the compiler?
-
-Not really. We packaged the IDE to help people quickly test Flyable. We're aware that most people don't want to work with it since they are probably already using a code editing tool they like.
-
-<br />
-<br />
-
 ## Performance & General Usage
 
 ### What is the expected speedup?
 
-For now, Flyable is expected to speed up your entire software execution time by 10-20%. This number highly varies depending on what the code is doing and how it's written. For specific algorithms Flyable can boost Python to make it up to 70 times faster. 
+For now, Flyable is expected to speed up your entire software execution time by 20-30%. This number highly varies depending on what the code is doing and how it's written. For specific algorithms Flyable can boost Python to make it up to 70 times faster. 
 Also, although Flyable supports Python modules, it doesn't speed them up for now so only the parts of the code that do not depend on Python modules will be accelerated by Flyable.
 
 ### How does Flyable make Python faster and more lightweight?
 
-The compiler applies strong optimization to your Python code before generating a native executable on Linux, Windows or Mac.
+The compiler applies strong optimization to your Python code before generating a native executable on Windows.
 
 ### How does the Flyable compiler work?
 
-Flyable compiles Python code into executable files. To do this, it uses a type discovery algorithm and then makes optimisations before generating the desired output.
+Flyable lexes and parses the Python code with the help of the Python ast module which generates an abstract syntax tree. Then a type discovery algorithm is applied and a code generator produces LLVM intermediate representation which is fed to LLVM. LLVM then applies additional optimizations and produces an executable for the desired architecture.
 
 ### What architectures can I run Flyable on?
 
-Flyable produces x86 instructions that run both on Windows and Linux 64 bits. Support for MacOS is planned. ARM support is also planned. 32 bits support isn’t planned in the near future.
+Flyable produces x86 instructions that run on Windows 64 bits. Support for Linux and MacOS is planned. ARM support is also planned. 32 bits support isn’t planned in the near future.
 
 ### What does Flyable produce?
 
@@ -106,13 +92,13 @@ We're also planning to offer the possibility to package all the required modules
 
 ## Development
 
-### Can I still be a part of Flyable’s development process?
+### Can I be a part of Flyable’s development process?
 
-Yes. To test Flyable before everyone else, request an invite to the Early Access Program by sending us an email at contact@flyable.dev! To contribute to open-source parts of Flyable, visit Flyable’s GitHub repository.
+Yes! To download Flyable, visit the [download page](get-started.md#_1-install). To contribute to Flyable, visit [Flyable’s GitHub repository](https://github.com/FlyableDev/Flyable).
 
 ### Is Flyable open-source?
 
-No decision has been made yet, but we would really like to make Flyable an open-source software.
+Yes it is! You can see the code [here](https://github.com/FlyableDev/Flyable).
 
 <br />
 <br />
@@ -125,4 +111,4 @@ Flyable helps you develop more performant Python code. Our benchmarks show that 
 
 ### How can I connect with the Flyable team/community?
 
-You can connect with the Flyable team on Twitter and LinkedIn and you can send us a message at contact@flyable.dev. 
+You can connect with the Flyable team on [Twitter](https://twitter.com/FlyableDev) and [LinkedIn](https://www.linkedin.com/company/flyable) and you can send us a message at contact@flyable.dev. You can also connect with the community on [Gitter](https://gitter.im/FlyableDev/community).
